@@ -51,10 +51,46 @@ console.log(carsAndNumbers[2][3], carsAndNumbers[3]) */
 console.log(maniacs.length)
 console.log(maniacs[maniacs.length - 1]) */
 
-var animals = []
+/* var animals = []
 animals.push('cat')
 animals.push('dog')
 animals.push('horse')
 console.log(animals)
+
 console.log(animals.length)
+
 console.log(animals[animals.length - 1])
+
+animals.unshift('popugai')
+console.log(animals)
+console.log(animals.length)
+
+var lastAnimal = animals.pop()
+console.log(lastAnimal)
+console.log(animals.length)
+animals.unshift(lastAnimal)
+console.log(animals.length)
+animals.push("slon")
+console.log(animals[2])
+console.log(animals)
+console.log(lastAnimal)
+console.log(animals.length)
+console.log(animals) */
+
+
+var girl = ['lisa', 'sveta']
+girl.unshift('natusya')
+console.log(girl)
+var lastGirl = girl.pop()
+console.log(lastGirl)
+girl.unshift(lastGirl)
+console.log(girl)
+
+girl.push('tana', 'ksenia')
+console.log(girl)
+var lastGirls_1 = girl.pop()
+console.log(lastGirls_1)
+girl.unshift(lastGirls_1)
+console.log(girl)
+girl.pop()
+console.log(girl)
