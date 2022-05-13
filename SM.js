@@ -78,7 +78,7 @@ console.log(animals.length)
 console.log(animals) */
 
 
-var girl = ['lisa', 'sveta']
+/* var girl = ['lisa', 'sveta']
 girl.unshift('natusya')
 console.log(girl)
 var lastGirl = girl.pop()
@@ -93,4 +93,14 @@ console.log(lastGirls_1)
 girl.unshift(lastGirls_1)
 console.log(girl)
 girl.pop()
-console.log(girl)
+console.log(girl) */
+
+var boys = ['ilia', 'vova', 'lexa', 'tolik']
+var firstBoy = boys.shift()
+console.log(firstBoy)
+boys.push(firstBoy)
+console.log(boys)
+console.log(boys.length)
+boys.push('tema', 'roma')
+boys.unshift('charly', 'marli')
+console.log(boys)
