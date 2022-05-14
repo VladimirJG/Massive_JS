@@ -95,7 +95,7 @@ console.log(girl)
 girl.pop()
 console.log(girl) */
 
-var boys = ['ilia', 'vova', 'lexa', 'tolik']
+/* var boys = ['ilia', 'vova', 'lexa', 'tolik']
 var firstBoy = boys.shift()
 console.log(firstBoy)
 boys.push(firstBoy)
@@ -103,4 +103,16 @@ console.log(boys)
 console.log(boys.length)
 boys.push('tema', 'roma')
 boys.unshift('charly', 'marli')
-console.log(boys)
+console.log(boys) */
+
+
+/* var colors = ['red', 'white', 'blue', 'yellow']
+var balls = ['small', 'big', 'mid', 'biggest']
+console.log(colors.concat(balls))
+
+console.log(colors) */
+
+var colors = ['red', 'white', 'blue', 'yellow']
+var balls = ['small', 'big', 'mid', 'biggest']
+var girls = ['lisa', 'sveta']
+console.log(colors.concat(balls, girls))
