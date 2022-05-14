@@ -116,3 +116,8 @@ var colors = ['red', 'white', 'blue', 'yellow']
 var balls = ['small', 'big', 'mid', 'biggest']
 var girls = ['lisa', 'sveta']
 console.log(colors.concat(balls, girls))
+
+girls.push('nina')
+lastBall = balls.pop()
+colors.unshift(lastBall)
+console.log(colors.concat(balls, girls))
