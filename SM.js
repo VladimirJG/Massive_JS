@@ -112,7 +112,7 @@ console.log(colors.concat(balls))
 
 console.log(colors) */
 
-var colors = ['red', 'white', 'blue', 'yellow']
+/* var colors = ['red', 'white', 'blue', 'yellow']
 var balls = ['small', 'big', 'mid', 'biggest']
 var girls = ['lisa', 'sveta']
 console.log(colors.concat(balls, girls))
@@ -122,4 +122,11 @@ lastBall = balls.pop()
 colors.unshift(lastBall)
 console.log(colors.concat(balls, girls))
 var slovo = colors[1]
-console.log(slovo.slice(1, 5))
+console.log(slovo.slice(1, 5)) */
+
+
+var colors = ['red', 'blue', 'green', 'yellow']
+console.log(colors.indexOf('green'))
+console.log(colors.indexOf('green'), colors.indexOf('red'))
+console.log(colors[2], colors[3])
+console.log(colors[8])
