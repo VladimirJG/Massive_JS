@@ -146,9 +146,35 @@ var stSL = colors.join()
 console.log(stSL.slice(7, 15)) */
 
 
-var fishes = ['vobla', 'shuka', 'okun', 'vidra']
+/* var fishes = ['vobla', 'shuka', 'okun', 'vidra']
 console.log(fishes.join(' est '))
 var age = [11, 56, 86]
 var vM = fishes[0].concat(age[2])
 console.log(vM)
-console.log(age.join(' '))
+console.log(age.join(' ')) */
+
+
+var landmarks = []
+landmarks.push('мой дом')
+landmarks.push('дорога к дому')
+landmarks.push('фонарь')
+landmarks.push('магазин')
+landmarks.push('мост')
+landmarks.push('церковь')
+landmarks.push('детская площадка')
+landmarks.push('шашлычная')
+landmarks.push('дом ее')
+console.log(landmarks)
+console.log(landmarks.length)
+var tochka = [landmarks.pop(),
+    landmarks.pop(),
+    landmarks.pop(),
+    landmarks.pop(),
+    landmarks.pop(),
+    landmarks.pop(),
+    landmarks.pop(),
+    landmarks.pop(),
+    landmarks.pop(),
+]
+console.log(tochka)
+console.log(tochka.join(' -> '))
