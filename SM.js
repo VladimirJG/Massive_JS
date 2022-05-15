@@ -125,7 +125,7 @@ var slovo = colors[1]
 console.log(slovo.slice(1, 5)) */
 
 
-var colors = ['red', 'blue', 'green', 'yellow']
+/* var colors = ['red', 'blue', 'green', 'yellow']
 console.log(colors.indexOf('green'))
 console.log(colors.indexOf('green'), colors.indexOf('red'))
 console.log(colors[2], colors[3])
@@ -143,4 +143,12 @@ colors.unshift(c_1)
 colors.unshift(c_3)
 console.log(colors)
 var stSL = colors.join()
-console.log(stSL.slice(7, 15))
+console.log(stSL.slice(7, 15)) */
+
+
+var fishes = ['vobla', 'shuka', 'okun', 'vidra']
+console.log(fishes.join(' est '))
+var age = [11, 56, 86]
+var vM = fishes[0].concat(age[2])
+console.log(vM)
+console.log(age.join(' '))
