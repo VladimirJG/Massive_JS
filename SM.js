@@ -121,4 +121,5 @@ girls.push('nina')
 lastBall = balls.pop()
 colors.unshift(lastBall)
 console.log(colors.concat(balls, girls))
-console.log(colors.slice[7], [15])
+var slovo = colors[1]
+console.log(slovo.slice(1, 5))
