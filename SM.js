@@ -154,7 +154,7 @@ console.log(vM)
 console.log(age.join(' ')) */
 
 
-var landmarks = []
+/* var landmarks = []
 landmarks.push('мой дом')
 landmarks.push('дорога к дому')
 landmarks.push('фонарь')
@@ -177,4 +177,17 @@ var tochka = [landmarks.pop(),
     landmarks.pop(),
 ]
 console.log(tochka)
-console.log(tochka.join(' -> '))
+console.log(tochka.join(' -> ')) */
+
+
+/* console.log(Math.random() * 10)
+var number = Math.random() * 12
+console.log(number)
+console.log(Math.floor(number)) */
+
+
+var randomWords = ['Взрыв', 'Пещера', 'Принцесса', 'Карандаш']
+    /* var randomIndex = Math.floor(Math.random() * 4)
+    console.log(randomWords[randomIndex])
+     */
+console.log(randomWords[Math.floor(Math.random()) * 3])
