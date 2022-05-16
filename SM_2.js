@@ -27,7 +27,10 @@ var colors = ['красный', 'синий', 'зеленый', 'белый', '�
 var values = ['крутой', 'роскошный', 'стремный', 'простой', 'улетный']
 var thing = things[Math.floor(Math.random() * 6)]
 var color = colors[Math.floor(Math.random() * 6)]
-var value = values[Math.floor(Math.random() * 5)]
-var value_2 = values[Math.floor(Math.random() * 5)]
+var value = values[Math.floor(Math.random() * values.length)]
+var value_2 = values[Math.floor(Math.random() * values.length)]
 var phrase = 'Твой ' + color + ' ' + thing + ' такой ' + value + ' и ' + value_2 + '!!!'
 console.log(phrase)
+    //В этой программе всегда нужно умножать Math.random() на длину
+    //массива; использование values.length как множителя означает,
+    //что нам не понадобится менять этот код, если длина массива изменится.
