@@ -58,6 +58,6 @@ var phrase_2 = 'У тебя ' + transport + ' еще более ' + value + ', '
 console.log(phrase_2) */
 
 
-var massive = [3, 2, 1]
+/* var massive = [3, 2, 1]
 var string = [3, 'больше', 'чем', 2, 'больше, чем', 1].join(' ')
-console.log(string)
+console.log(string) */

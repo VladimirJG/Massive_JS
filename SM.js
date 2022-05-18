@@ -196,6 +196,6 @@ console.log(randomWords[Math.floor(Math.random()) * 3])
 var randomIndex = Math.floor(Math.random() * 4)
 console.log(randomWords[randomIndex]) */
 
-var cars = ['toyota', 'bmw', 'suzuki', 'lexus', 'mazerraty', 'honda']
+/* var cars = ['toyota', 'bmw', 'suzuki', 'lexus', 'mazerraty', 'honda']
 var indexCar = Math.floor(Math.random() * 6)
-console.log(cars[indexCar])
+console.log(cars[indexCar]) */
