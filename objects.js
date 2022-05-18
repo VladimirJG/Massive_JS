@@ -70,7 +70,7 @@ owedMoney.Keny += 6
 owedMoney.Sanya -= 24
 console.log(owedMoney) */
 
-var movies = {
+/* var movies = {
     'В поисках Немо': {
         releaseDate: 2003,
         duratoin: 100,
@@ -104,4 +104,26 @@ var cars = {
 movies["Тачки"] = cars
 
 console.log(movies)
-console.log(Object.keys(movies))
+console.log(Object.keys(movies)) */
+
+
+/* var scores = {}
+scores['Sanya'] = 6
+scores['Tanya'] = 8
+scores['Vitalya'] = 7
+scores['Dimon'] = 9
+scores['Gora'] = 15
+scores['Den'] = 3
+console.log(scores)
+
+scores.Den += 5
+scores.Dimon += 12
+scores.Gora -= 3
+console.log(scores) */
+
+var myCrazyObject = {
+    "name": "Нелепый объект",
+    "some array": [7, 9, { purpose: "путаница", number: 123 }, 3.3],
+    "random animal": "Банановая акула"
+};
+console.log(myCrazyObject["some array"][2].number)
