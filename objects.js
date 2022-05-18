@@ -48,7 +48,7 @@ console.log(dinosaurus[0])
 console.log(dinosaurus[2].period) */
 
 
-var anna = { name: 'Anna', age: 26, luckyNumbers: [2, 4, 6, 24] }
+/* var anna = { name: 'Anna', age: 26, luckyNumbers: [2, 4, 6, 24] }
 var dave = { name: 'Dave', age: 41, luckyNumbers: [5, 9, 17, 58] }
 var kate = { name: 'Kate', age: 36, luckyNumbers: [186, 8, 93, 45, 75] }
 
@@ -57,3 +57,15 @@ var friends = [anna, dave, kate]
 console.log(friends[1])
 console.log(friends[2].name)
 console.log(friends[2].luckyNumbers[3])
+console.log(friends) */
+
+var owedMoney = {}
+owedMoney['Keny'] = 5
+owedMoney['lexa'] = 17
+owedMoney['Sanya'] = 53
+console.log(owedMoney)
+console.log(owedMoney.lexa)
+
+owedMoney.Keny += 6
+owedMoney.Sanya -= 24
+console.log(owedMoney)
