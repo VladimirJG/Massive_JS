@@ -59,7 +59,7 @@ console.log(friends[2].name)
 console.log(friends[2].luckyNumbers[3])
 console.log(friends) */
 
-var owedMoney = {}
+/* var owedMoney = {}
 owedMoney['Keny'] = 5
 owedMoney['lexa'] = 17
 owedMoney['Sanya'] = 53
@@ -68,4 +68,40 @@ console.log(owedMoney.lexa)
 
 owedMoney.Keny += 6
 owedMoney.Sanya -= 24
-console.log(owedMoney)
+console.log(owedMoney) */
+
+var movies = {
+    'В поисках Немо': {
+        releaseDate: 2003,
+        duratoin: 100,
+        actors: ['Albert Brooks', 'Elenn Dedjeners',
+            'Alexander Gould'
+        ],
+        format: 'DVD'
+    },
+    'Звездные войны: Эпизод VI — Возвращение джедая': {
+        releaseDate: 1983,
+        duration: 134,
+        actors: ["Марк Хэмилл", "Харрисон Форд", "Кэрри Фишер"],
+        format: "DVD"
+    },
+    'Гарри Поттер и Кубок огня': {
+        releaseDate: 2005,
+        duration: 157,
+        actors: ["Дэниел Рэдклифф", "Эмма Уотсон", "Руперт Гринт"],
+        format: "Blu-ray"
+    }
+}
+console.log(movies["В поисках Немо"])
+console.log(movies["В поисках Немо"].actors[2])
+
+var cars = {
+    releaseDate: 2006,
+    duration: 117,
+    actors: ["Оуэн Уилсон", "Бонни Хант", "Пол Ньюман"],
+    format: "Blu-ray"
+};
+movies["Тачки"] = cars
+
+console.log(movies)
+console.log(Object.keys(movies))
