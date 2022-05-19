@@ -10,15 +10,24 @@
     <h1>Привет, мир!</h1>
     <p>Моя первая веб-страничка.</p>
     <script>
-        var name = "Никола";
-        console.log("Привет, " + name);
-        if (name === "Николай") {
-            console.log("Ну е мое");
-        } else if (name != "Николай") {
-            console.log("Хто ты есть.")
-        } else {
-            console.log('Фааааааяяяяяя!!!!')
+        var input = "javascript is awesome"
+        var output = ""
+        for (let i = 0; i < input.length; i++) {
+
+            if (input[i] === 'a') {
+                output += '4'
+            } else if (input[i] === 'e') {
+                output += '3'
+            } else if (input[i] === 'i') {
+                output += '1'
+            } else if (input[i] === 'o') {
+                output += '0'
+            } else {
+                output += input[i]
+            }
         }
+
+        console.log(output)
     </script>
 </body>
 
