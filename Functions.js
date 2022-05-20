@@ -40,8 +40,38 @@ console.log(movies(3, '^-^')) */
 
 
 
-let zadacha = function(number) {
+/* let zadacha = function(number) {
     return number * 2
 }
 console.log(zadacha(3) * zadacha(5))
-console.log(zadacha(zadacha(zadacha(3))))
+console.log(zadacha(zadacha(zadacha(3)))) */
+
+
+/* var pickRandomCars = function(cars) {
+    return cars[Math.floor(Math.random() * cars.lenght)];
+};
+var randomCars = ["Toyota", "Opel", "Mazda", "Kia"];
+console.log(pickRandomCars(randomCars)); */
+
+/* var pickRandomCars = function(cars) {
+    return cars[Math.floor(Math.random() * cars.length)]
+}
+var randomCars = ["Toyota", "Opel", "Mazda", "Kia"]
+console.log(pickRandomCars(randomCars)) */
+
+var pR_Cars = function(tryz_lya_lya) {
+    return tryz_lya_lya[Math.floor(Math.random() * tryz_lya_lya.length)]
+}
+var randomCars = ["Toyota", "Opel", "Mazda", "Kia"]
+console.log(pR_Cars(randomCars))
+
+
+
+
+
+
+let pickRandomBalls = function(ball) {
+    return ball[Math.floor(Math.random() * ball.length)]
+}
+let randomBall = ['red', 'blue', 'yellow', 'white']
+console.log(pickRandomBalls(randomBall))
