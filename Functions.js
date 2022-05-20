@@ -43,4 +43,5 @@ console.log(movies(3, '^-^')) */
 let zadacha = function(number) {
     return number * 2
 }
-console.log(zadacha(3))
+console.log(zadacha(3) * zadacha(5))
+console.log(zadacha(zadacha(zadacha(3))))
