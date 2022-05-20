@@ -91,14 +91,14 @@ console.log(result) */
 /* let pickRanmdoWord = function(randomWords) {
     return randomWords[Math.floor(Math.random() * randomWords.length)]
 }
- */
-let randomString = 'у тебя ' + pickRanmdoWord(randomBodyParts) + ' словно ' + pickRanmdoWord(randomAdjectives) + ' ' + pickRanmdoWord(randomWords) + '!!!'
-    /* console.log(randomString) */
 
+let randomString = 'у тебя ' + pickRanmdoWord(randomBodyParts) + ' словно ' + pickRanmdoWord(randomAdjectives) + ' ' + pickRanmdoWord(randomWords) + '!!!'
+    console.log(randomString)
+ */
 
 //вариант 3
 
-let randomDraznilka = function() {
+/* let randomDraznilka = function() {
     let randomBodyParts = ['глаз', 'нос', 'рот', 'ухо'];
     let randomAdjectives = ['дурацкая', 'унылая', 'вонючая'];
     let randomWords = ['муха', 'ведьма', 'дубина', 'выдра', 'крыса'];
@@ -111,4 +111,19 @@ let randomDraznilka = function() {
 }
 
 
-console.log(randomDraznilka)
+console.log(randomDraznilka) */
+
+//3 не понял пока(еще подумать)
+
+
+
+var f_1 = function(n_1, n_2) {
+    return n_1 + n_2
+
+}
+console.log(f_1(777, 9824))
+var f_2 = function(m_1, m_2) {
+    return m_1 * m_2
+
+}
+console.log(f_2(f_1(777, 9824), 3625))
